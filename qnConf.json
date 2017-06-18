@@ -1,0 +1,6 @@
+{
+            "bucket": "blog",
+            "src_dir": "/Users/xxx/Documents/Blog/qImg",
+            "overwrite": true,
+            "rescan_local": true
+ }
