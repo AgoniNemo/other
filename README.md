@@ -19,3 +19,25 @@ qshell account AK SK
 ```
 sh upload.sh的绝对路径
 ```
+
+#### GitLabAddUser.sh使用
+
+修改文件内容，private_token可以从root用户Settings-->Account查到
+
+```
+url_path="http://<地址>/api/v4/users"
+private_token="private_token"
+```
+
+使用时，需要一个添加用户的text文件，格式如下：
+
+```
+12345678 test123@qq.com testname1 测试1
+12345678 528634141@qq.com testname2 测试2
+```
+
+脚本使用，如下
+```
+sh /Users/xxx/Desktop/GitLabAddUser.sh
+
+```
